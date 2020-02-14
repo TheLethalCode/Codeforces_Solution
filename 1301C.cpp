@@ -26,33 +26,19 @@ using namespace std;
 
 // %
 
-pair<int, string> func(string cur, int n, int m)
-{
-    if(n==0)
-    {
-        int k = cur.size();
-        vi temp(k+1,0);
-        FOR(i,k)
-            temp[i+1]= temp[i] + (cur[i]=='1');
-        int ans = 0;
-        for(int i=0;i<k;i++)
-            for(int j=i;j<k;j++)
-                if(temp[j+1]-temp[i])
-                    ans++;
-        return {ans,cur};
-    }
-    pair<int, string> ma = func(cur+'0',n-1,m);
-    pair<int, string> a = m?func(cur+'1',n-1,m-1):ma;
-    if(a.fi > ma.fi)
-        ma = a;
-    return ma;
-}
-
 int main(int argc, char **argv)
 {
-    crap;
-    pair<int, string> r;
-    FOR(i,20)
-        FOR(j,i+2)
-            r = func("",i+1,j), cout<<i+1<<" "<<j<<" "<<r.fi<<endl;
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        lli n,m;
+        cin>>n>>m;
+        
+        lli N = n + 1;
+        lli a = N/(m+1), rem = N - a*(m+1), b = a + 1;
+        lli ans = rem*b*N + (m-rem)*a*N;
+        ans -= (m-rem)*rem*b*a + rem*(rem+1)/2 * b*b + (m-rem)*(m-rem+1)/2 * a*a;
+        cout<<ans<<endl; 
+    }
 }
