@@ -26,15 +26,50 @@ using namespace std;
 
 // %
 
+int che(vi& v, int k)
+{
+    int sm = (1<<k+1) + (1<<k), bi = (1<<k+2) - 2;
+    int n = v.size();
+    int cnt = 0;
+    for(int i = 0; i < n ; i++)
+    {
+        int pos_st = lower_bound(all(v), sm - v[i]) - v.begin();
+        int pos_en = upper_bound(all(v), bi - v[i]) - v.begin();
+        
+        cnt += pos_en - pos_st;
+        if(i >= pos_st && i < pos_en)
+            cnt--;
+    }
+    sm =(1<<k), bi = (1<<k+1) - 1;
+    for(int i = 0; i < n ; i++)
+    {
+        int pos_st = lower_bound(all(v), sm - v[i]) - v.begin();
+        int pos_en = upper_bound(all(v), bi - v[i]) - v.begin();
+        
+        cnt += pos_en - pos_st;
+        if(i >= pos_st && i < pos_en)
+            cnt--;
+    }
+    return cnt>>1;
+}
+
 int main(int argc, char **argv)
 {
     crap;
-    int i,j,k;
-    for(i = 0;i<4;i++)
-        for(j = 0;j<4;j++)
-            for(k = 0;k<4;k++)
-                {
-                    cout<<i<<" "<<j<<" "<<k<<":- ";
-                    cout<<((i+j) ^ k )<<" "<< (i ^ k) + (j ^ k)<<endl; 
-                }
+    int n;
+    cin>>n;
+    vi v(n);
+    FOR(i,n)
+        cin>>v[i];
+    int ans = 0;
+    for(int i=24;i>=0;i--)
+    {
+        for(auto& k : v)
+            k &= (1<<(i+1)) - 1;
+        sort(all(v));
+        int cnt = che(v,i);
+        if(cnt & 1)
+            ans += 1<<i; 
+    }
+    cout<<ans<<endl;
 }
