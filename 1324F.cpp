@@ -24,33 +24,8 @@ using namespace std;
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
-int n,k=0;
-vector< vi > v;
-vector< int > func;
-
-bool can(int cur, int ch)
-{
-    if(ch > k)
-        return false;
-    return true;
-}
-
 int main(int argc, char **argv)
 {
     crap;
-    cin>>n;
-    func.resize(n+1);
-    v.resize(n+1);
-    for(int i=0;i<n;i++)
-        cin>>func[i+1];
-    for(int i=0;i<n-1;i++)
-    {
-        int a;
-        cin>>a;
-        v[a].pb(i+2);
-    }
-    for(auto ar : v)
-        if(ar.empty())
-            k++; 
     
 }

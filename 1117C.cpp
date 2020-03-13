@@ -4,59 +4,70 @@ using namespace std;
 #define mod 1000000007
 #define crap ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define lli long long
+#define pa pair<int,int>
+#define pal pair<lli,lli>
 #define vi vector< int >
 #define vli vector< lli >
-#define endl "\n"
-#define pa pair<lli,lli>
+#define vpa vector< pa >
+#define vpal vector< pal >
 #define fi first
 #define se second
 #define pb push_back
-#define mp make_pair
+#define pp pop_back
 
-int main()
+#define nl cout<<"\n"
+#define FOR(i,n) for(int i=0;i<n;i++)
+#define all(v) v.begin(), v.end()
+#define debug1(x) cout<<#x<<" "<<x;nl
+#define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
+#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define max3(x,y,z) max(max(x,y),z)
+#define min3(x,y,z) min(min(x,y),z)
+
+int n;
+lli x1, y11, x2, y2;
+string s;
+vpal m;
+
+bool can(lli ans)
+{
+    int rem = ans % n;
+    lli times = ans/n;
+    pal pos = {times * m[n].fi, times * m[n].se};
+    pos.fi += m[rem].fi, pos.se += m[rem].se; 
+    pos.fi += x1, pos.se += y11;
+    if(abs(pos.fi - x2) + abs(pos.se - y2) > ans)
+        return false;
+    return true;
+}
+
+int main(int argc, char **argv)
 {
     crap;
-    lli x1,y1,x2,y2;
-    cin>>x1>>y1>>x2>>y2;
-    string s;
-    cin>>s;
-    int n=s.length();
-    lli dirx = x2-x1,diry=y2-y1;
-    vector<pa> v(n+1,{0,0});
-    for(int i=1;i<=n;i++)
+    cin>>x1>>y11>>x2>>y2>>n>>s;
+    lli ans = 1LL<<52;
+    m.resize(n+1);
+
+    m[0] = {0, 0};
+    for(int i=0;i<n;i++)
     {
-        if(s[i-1]=='U')
-            v[i].fi=v[i-1].fi,v[i].se=v[i-1].se+1;
-        if(s[i-1]=='D')
-            v[i].fi=v[i-1].fi,v[i].se=v[i-1].se-1;
-        if(s[i-1]=='L')
-            v[i].fi=v[i-1].fi-1,v[i].se=v[i-1].se;
-        if(s[i-1]=='R')
-            v[i].fi=v[i-1].fi+1,v[i].se=v[i-1].se;
+        m[i+1] = m[i];
+        if(s[i] == 'U')
+            m[i+1].se ++;
+        if(s[i] == 'D')
+            m[i+1].se --;
+        if(s[i] == 'L')
+            m[i+1].fi --;
+        if(s[i] == 'R')
+            m[i+1].fi ++;
     }
-    if(abs(v[n].fi) + abs(v[n].se) == n && v[n].fi*dirx < 0 && v[n].se*diry<0)
-        cout<<-1;
+
+    for(int i=51;i>=0;i--)
+        if(can(ans - (1LL<<i)))
+            ans -= 1LL<<i;
+
+    if(ans == 1LL<<52)
+        cout<<-1<<endl;
     else
-    {
-        int up=0,right=0;
-        if(diry>0)
-            up=1;
-        else
-            up=-1;
-        if(dirx>0)
-            right=1;
-        else
-            right=-1;
-        
-        lli times=(abs(dirx) + abs(diry))/(v[n].fi*right + v[n].se*up + n);
-        times*=(v[n].fi*right + v[n].se*up + n);
-        for(int i=1;i<=n;i++) 
-        {
-            if(times + i + v[i].fi*right + v[i].se*up >= abs(dirx) + abs(diry))
-            {
-                times+=i;
-                break;
-            }
-        }
-    }
+        cout<<ans<<endl;
 }
