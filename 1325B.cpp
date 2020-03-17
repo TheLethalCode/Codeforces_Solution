@@ -24,8 +24,19 @@ using namespace std;
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
+// %
+
 int main(int argc, char **argv)
 {
     crap;
-    
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n;
+        cin>>n;
+        set<int> ch;
+        FOR(i, n) {int a; cin>>a; ch.insert(a);}
+        cout<<ch.size()<<endl;
+    }
 }

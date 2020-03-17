@@ -30,21 +30,31 @@ int main(int argc, char **argv)
     int n,h,l,r;
     cin>>n>>h>>l>>r;
     vi v(n);
-    FOR(i, n) cin>>v[i];
-
-    vi te(n,0);
-    vpa si(n);
-
-    int prev = 0;
-    for(int i=0;i<n;i++)
+    vi pref(n+1,0);
+    FOR(i, n) cin>>v[i], v[i]--, pref[i+1] = (pref[i]+v[i])%h;
+    vector< vi > num(n+1);
+    for(int i=1;i<=n;i++)
+        for(int j=0;j<=i;j++)
+            if((pref[i]+j)%h <= r && (pref[i]+j)%h >= l)
+                num[i].pb(j);
+    
+    vector< vi > dp(n+1, vi(n+1,0));
+    for(int k:num[1])
+        dp[1][k] = 1;
+    for(int i=2;i<=n;i++)
     {
-        prev += v[i], prev %= h;
-        te[i] = prev;
-        if(prev < l)
-            si[i].fi = l - prev, si[i].se = r - prev;
-        else if(prev <= r)
-            si[i].fi = 0, si[i].se = r - prev;
-        else
-            si[i].fi = (l - prev + h ) % h, si[i].se = s[i].fi + r - l;
+        dp[i][0] = dp[i-1][0];
+        if(pref[i] >= l & pref[i] <= r)
+            dp[i][0]++;
+        for(int j=1;j<=i;j++)
+        {
+            dp[i][j] = max(dp[i-1][j-1], dp[i-1][j]);
+            if(num[i].empty())
+                continue;
+            int pos = lower_bound(all(num[i]), j) - num[i].begin();
+            if(pos < num[i].size() & num[i][pos] == j)
+                dp[i][j]++;
+        }
     }
+    cout<<*max_element(all(dp[n]))<<endl;
 }
