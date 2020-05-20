@@ -24,40 +24,43 @@ using namespace std;
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
-// %
-
 int main(int argc, char **argv)
 {
     crap;
-    int t;
-    cin>>t;
-    while(t--)
+    int n, m, k;
+    cin>>n>>m>>k;
+    vpa st(k), ft(k);
+    FOR(i,k) cin>>st[i].fi>>st[i].se;
+    FOR(i,k) cin>>ft[i].fi>>ft[i].se;
+    string ans="";
+    int j=0;
+    for(int i=0;i<n;i++)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        if(j<m-1)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
+            if(i)
+                ans+='D';
+            for(;j<m-1;j++)
+                ans+='R';
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        else
+        {
+            ans+='D';
+            for(;j>0;j--)
+                ans+='L';
+        }
     }
+    string temp = ans;
+    reverse(all(temp));
+    for(char &a : temp)
+    {
+        if(a == 'R')
+            a = 'L';
+        else if(a == 'L')
+            a = 'R';
+        else
+            a = 'U';
+    }
+    cout<<2*ans.size()<<endl;
+    cout<<ans<<temp<<endl;
 }

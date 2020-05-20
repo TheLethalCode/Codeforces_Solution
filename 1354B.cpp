@@ -15,16 +15,27 @@ using namespace std;
 #define pb push_back
 #define pp pop_back
 
-#define nl cout<<"\n"
+#define nl cout<<endl;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
 // %
+int n;
+
+bool can(int ans, vector< vi > ar)
+{
+    if(ans > n)
+        return true;
+    for(int i=0;i<=n-ans;i++)
+        if(ar[i+ans][0]-ar[i][0] > 0 & ar[i+ans][1]-ar[i][1] > 0 & ar[i+ans][2]-ar[i][2] > 0)
+            return true;
+    return false;
+}
 
 int main(int argc, char **argv)
 {
@@ -33,31 +44,21 @@ int main(int argc, char **argv)
     cin>>t;
     while(t--)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
+        string s;
+        cin>>s;
+        n=s.size();
+        vector< vi > ar(n+1, vi(3,0));
+        for(int i=0;i<n;i++)
+            ar[i+1]=ar[i], ar[i+1][s[i]-'1']++;
         
-        vi cnt(100, 0);
-
-        FOR(i, n)
-        {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
-        }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        int ans = 1<<25;
+        for(int i=24;i>=0;i--)
+            if(can(ans-(1<<i), ar))
+                ans -= 1<<i;
+        
+        if(!ar[n][0] | !ar[n][1] | !ar[n][2])
+            cout<<0<<endl;
+        else
+            cout<<ans<<endl;
     }
 }

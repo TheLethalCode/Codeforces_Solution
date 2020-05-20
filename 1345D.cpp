@@ -29,35 +29,5 @@ using namespace std;
 int main(int argc, char **argv)
 {
     crap;
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
-        {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
-        }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
-    }
+    
 }

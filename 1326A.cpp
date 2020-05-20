@@ -33,31 +33,16 @@ int main(int argc, char **argv)
     cin>>t;
     while(t--)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        int n;
+        cin>>n;
+        if(n==1)
+            cout<<-1;
+        else
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
+            cout<<2;
+            for(int i=0;i<n-1;i++)
+                cout<<3;
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        cout<<endl;
     }
 }

@@ -15,49 +15,51 @@ using namespace std;
 #define pb push_back
 #define pp pop_back
 
-#define nl cout<<"\n"
+#define nl cout<<endl;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
 // %
-
 int main(int argc, char **argv)
 {
     crap;
-    int t;
-    cin>>t;
-    while(t--)
+    int n, s;
+    cin>>n>>s;
+    if(n==1 & s==1)
+        cout<<"NO"<<endl;
+    else if(n==1)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        cout<<"YES"<<endl;
+        cout<<s<<endl;
+        cout<<1<<endl;
+    }
+    else
+    {
+        int k = s/n;
+        int rem = s-n*k;
+        int fl = -1;
+        for(int i=1;i<s;i++)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
+            if(i<k || (i-rem)%k!=0)
             {
-                cnt[p] += cur%k;
-                cur/=k, p++;
+                fl=i;
+                break;
             }
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        if(fl!=-1)
+        {
+            cout<<"YES"<<endl;
+            for(int i=0;i<n-1;i++)
+                cout<<k<<" ";
+            cout<<k+rem<<endl;
+            cout<<fl<<endl;
+        }
+        else
+            cout<<"NO"<<endl;
     }
 }

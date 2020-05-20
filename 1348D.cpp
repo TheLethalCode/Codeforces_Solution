@@ -15,16 +15,18 @@ using namespace std;
 #define pb push_back
 #define pp pop_back
 
-#define nl cout<<"\n"
+#define nl cout<<endl;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
 // %
+
+int n=3;
 
 int main(int argc, char **argv)
 {
@@ -33,31 +35,16 @@ int main(int argc, char **argv)
     cin>>t;
     while(t--)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        cin>>n;
+        int ans = log2(n), day=0, cnt=1;
+        n-=ans+1;
+        cout<<ans<<endl;
+        while(day<ans)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
+            int val = min(n/(ans-day), cnt);
+            n-= val*(ans-day), day++, cnt+=val;
+            cout<<val<<" ";
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        cout<<endl;
     }
 }

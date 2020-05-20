@@ -31,33 +31,25 @@ int main(int argc, char **argv)
     crap;
     int t;
     cin>>t;
+    vector< lli > ar(40000);
+    lli st = 0;
+    for(int i=0;i<40000;i++)
+    {
+        ar[i]=st;
+        st += 3*(i+1)-1;
+    }
     while(t--)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        int n;
+        cin>>n;
+        int count = 0;
+        while(n>1)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
+            int pos = lower_bound(all(ar), n) - ar.begin();
+            if(ar[pos] != n)
+                pos--;
+            n-=ar[pos], count++;
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        cout<<count<<endl;
     }
 }

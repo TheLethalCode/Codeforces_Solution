@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define mod 1000000007
+#define mod 998244353
 #define crap ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define lli long long
 #define pa pair<int,int>
@@ -29,35 +29,27 @@ using namespace std;
 int main(int argc, char **argv)
 {
     crap;
-    int t;
-    cin>>t;
-    while(t--)
+    lli n,k;
+    cin>>n>>k;
+    vi v(n);
+    FOR(i, n) cin>>v[i];
+    if(k==1)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        cout<<n<<" "<<1<<endl;
+    }
+    else
+    {
+        lli ans=1, temp=-1;
+        for(int i=0;i<n;i++)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
+            if(v[i]>n-k & temp==-1)
+                temp=i;
+            else if(v[i]>n-k)
             {
-                cnt[p] += cur%k;
-                cur/=k, p++;
+                ans *= (i-temp), ans %= mod;
+                temp=i;
             }
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        cout<<n*(n+1)/2 - (n-k)*(n-k+1)/2<<" "<<ans<<endl;
     }
 }

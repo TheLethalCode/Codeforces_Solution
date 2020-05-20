@@ -15,17 +15,16 @@ using namespace std;
 #define pb push_back
 #define pp pop_back
 
-#define nl cout<<"\n"
+#define nl cout<<endl;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
 // %
-
 int main(int argc, char **argv)
 {
     crap;
@@ -33,31 +32,19 @@ int main(int argc, char **argv)
     cin>>t;
     while(t--)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
+        int n;
+        cin>>n;
+        vi v(n);
+        FOR(i,n) cin>>v[i];
+        sort(all(v));
+        int an = 0;
+        int ma_e, prev=-1;
+        for(int i=0;i<n;i++)
         {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
+            ma_e = v[i];
+            if(i-prev >= ma_e)
+                an++, prev = i;
         }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        cout<<an<<endl;    
     }
 }

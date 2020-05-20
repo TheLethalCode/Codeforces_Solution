@@ -29,35 +29,19 @@ using namespace std;
 int main(int argc, char **argv)
 {
     crap;
-    int t;
-    cin>>t;
-    while(t--)
+    int n;
+    cin>>n;
+    vli b(n);
+    FOR(i,n) cin>>b[i];
+    vli a(n);
+    a[0] = b[0];
+    multiset<lli> ps;
+    ps.insert(a[0]);
+    for(int i=1;i<n;i++)
     {
-        lli n, k;
-        cin>>n>>k;
-        vli v(n);
-        FOR(i, n) cin>>v[i];
-        
-        vi cnt(100, 0);
-
-        FOR(i, n)
-        {
-            lli cur = v[i];
-            int p = 0;
-            while(cur)
-            {
-                cnt[p] += cur%k;
-                cur/=k, p++;
-            }
-        }
-
-        for(int i=0;i<100;i++)
-            if(cnt[i] > 1)
-            {
-                cout<<"NO"<<endl;
-                goto lab;
-            }
-        cout<<"YES"<<endl;
-        lab:;  
+        a[i] = b[i] + *ps.rbegin();
+        ps.insert(a[i]);
     }
+    FOR(i, n) cout<<a[i]<<" ";
+    cout<<endl; 
 }
