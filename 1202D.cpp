@@ -20,15 +20,34 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
-#define perc %
-#define xors ^
-
+// %
 int main(int argc, char **argv)
 {
     crap;
-    
+    int t;
+    cin>>t;
+    vli v(50000);
+    FOR(i, 50000) v[i] = 1LL*i*(i-1)/2;
+    while(t--){
+        int n;
+        cin>>n;
+        vi num;
+        while(n){
+            int pos = lower_bound(all(v), n) - v.begin();
+            if(v[pos] != n) pos--;
+            n-=v[pos], num.pb(pos);
+        }
+        reverse(all(num));
+        string ans = "1";
+        int cnt = 0;
+        for(int el : num){
+            while(cnt < el) cnt++, ans+='3';
+            ans+='7';
+        }
+        cout<<ans<<endl;
+    }
 }

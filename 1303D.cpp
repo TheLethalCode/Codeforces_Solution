@@ -90,7 +90,6 @@ int main(int argc, char **argv)
                     for(int i=k-1;i>=bi;i--)
                         cnt[i]++;
                     ans += k-bi;
-                    // cout<<bi<<"#"<<ans<<endl;
                 }
             }
             n/=2, bi++;

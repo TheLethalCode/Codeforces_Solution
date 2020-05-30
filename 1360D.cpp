@@ -15,19 +15,39 @@ using namespace std;
 #define pb push_back
 #define pp pop_back
 
-#define nl cout<<"\n"
+#define nl cout<<endl;
 #define FOR(i,n) for(int i=0;i<n;i++)
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
-#define perc %
-#define xors ^
 
+// %
 int main(int argc, char **argv)
 {
     crap;
-    
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        lli n, k;
+        cin>>n>>k;
+        vli fac;
+        for(lli i=1;i<=sqrt(n);i++)
+        {
+            if(n%i == 0)
+            {
+                fac.pb(i);
+                if(i*i != n)
+                    fac.pb(n/i);
+            }
+        }
+        lli ans = 1e9+1;
+        for(lli p : fac)
+            if(p <= k)
+                ans = min(ans, n/p);
+        cout<<ans<<endl;
+    }
 }

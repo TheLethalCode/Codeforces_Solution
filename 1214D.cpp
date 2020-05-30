@@ -72,20 +72,6 @@ int main(int argc, char **argv)
             if(vis[i][j] != -1 && vis1[i][j])
                 cnt[vis[i][j]]++;
 
-    // FOR(i,n)
-    // {
-    //     FOR(j,m)
-    //         cout<<vis[i][j]<<" ";
-    //     cout<<endl;
-    // }
-
-    // FOR(i,n)
-    // {
-    //     FOR(j,m)
-    //         cout<<vis1[i][j]<<" ";
-    //     cout<<endl;
-    // }
-
     int fl = 0;
     for(int i=1;i<n+m-2;i++)
         if(cnt[i] == 1)

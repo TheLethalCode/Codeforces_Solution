@@ -20,15 +20,31 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define debug1(x) cout<<#x<<" "<<x;nl
 #define debug2(x,y) cout<<#x<<" "<<x<<", "<<#y<<" "<<y;nl
-#define debugA(v) for(int i:v) cout<<i<<" ";nl
+#define debugA(v) for(auto i:v) cout<<i<<" ";nl
 #define max3(x,y,z) max(max(x,y),z)
 #define min3(x,y,z) min(min(x,y),z)
 
-#define perc %
-#define xors ^
-
+// %
 int main(int argc, char **argv)
 {
     crap;
+    vi v1, v2;
+    int a, b;
+    FOR(i, 100) v1.pb(i+1), v2.pb(i<<7);
     
+    cout<<"? ";
+    for(auto k : v1) cout<<k<<" ";cout<<endl;
+    cin>>a;
+
+    cout<<"? ";
+    for(auto k : v2) cout<<k<<" ";cout<<endl;
+    cin>>b;
+
+    for(int i : v1) 
+        for(int j : v2) 
+            if((i^j) == (a^b)){
+                cout<<"! "<<(a^i)<<endl;
+                cout<<flush;
+                return 0;
+            }
 }
