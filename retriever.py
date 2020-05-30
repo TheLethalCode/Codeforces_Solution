@@ -3,6 +3,7 @@ import os, sys
 from time import sleep
 
 README = "README.md"
+CODES = "codes"
 
 RENEW = """# Codeforces_Solution
 Program codes for a wide range of Codeforces problem (constantly updating)
@@ -103,7 +104,7 @@ if __name__ == '__main__':
     prev = alread_present()
 
     # Get the new problems to update
-    files = [it[:-4] for it in os.listdir(".") if (".cpp" in it) and (it not in prev)]
+    files = [it[:-4] for it in os.listdir(CODES) if (".cpp" in it) and (it not in prev)]
 
     # Update readme
     find_names(files)
