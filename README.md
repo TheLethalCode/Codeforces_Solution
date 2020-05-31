@@ -274,3 +274,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1360-F:** Spy-string
 - **1360-G:** A/B Matrix
 - **1360-H:** Binary Median
+- **1363-A:** Odd Selection
+- **1363-B:** Subsequence Hate
+- **1363-C:** Game On Leaves
+- **1363-D:** Guess The Maximums
+- **1363-E:** Tree Shuffling
