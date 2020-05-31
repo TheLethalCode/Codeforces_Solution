@@ -117,8 +117,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1151-C:** Problem for Nazar
 - **1153-D:** Serval and Rooted Tree
 - **1168-A:** Increasing by Modulo
+- **1174-D:** Ehab and the Expected XOR Problem
 - **1175-D:** Array Splitting
 - **1177-B:** Digits Sequence (Hard Edition)
+- **1178-E:** Archaeology
 - **1181-C:** Flag
 - **1183-H:** Subsequences (hard version)
 - **1184-E1:** Daleks' Invasion (easy)
