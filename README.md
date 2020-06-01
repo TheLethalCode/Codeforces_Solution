@@ -89,6 +89,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1118-D2:** Coffee and Coursework (Hard Version)
 - **1119-A:** Ilya and a Colorful Walk
 - **1119-B:** Alyona and a Narrow Fridge
+- **1119-E:** Pavel and Triangles
 - **1131-A:** Sea Battle
 - **1131-B:** Draw!
 - **1131-C:** Birthday
@@ -116,6 +117,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1141-G:** Privatization of Roads in Treeland
 - **1151-C:** Problem for Nazar
 - **1153-D:** Serval and Rooted Tree
+- **1155-D:** Beautiful Array
+- **1157-D:** N Problems During K Days
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
 - **1168-A:** Increasing by Modulo
