@@ -116,7 +116,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1141-G:** Privatization of Roads in Treeland
 - **1151-C:** Problem for Nazar
 - **1153-D:** Serval and Rooted Tree
+- **1163-C1:** Power Transmission (Easy Edition)
+- **1163-C2:** Power Transmission (Hard Edition)
 - **1168-A:** Increasing by Modulo
+- **1168-B:** Good Triple
+- **1172-B:** Nauuo and Circle
 - **1174-D:** Ehab and the Expected XOR Problem
 - **1175-D:** Array Splitting
 - **1177-B:** Digits Sequence (Hard Edition)
