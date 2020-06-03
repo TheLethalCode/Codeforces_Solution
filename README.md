@@ -54,6 +54,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1102-C:** Doors Breaking and Repairing
 - **1102-D:** Balanced Ternary String
 - **1102-E:** Monotonic Renumeration
+- **1105-D:** Kilani and the Game
 - **1106-A:** Lunar New Year and Cross Counting
 - **1106-B:** Lunar New Year and Food Ordering
 - **1106-C:** Lunar New Year and Number Division
@@ -79,6 +80,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1114-A:** Got Any Grapes?
 - **1114-B:** Yet Another Array Partitioning Task
 - **1114-C:** Trailing Loves (or L'oeufs?)
+- **1114-D:** Flood Fill
 - **1117-A:** Best Subsegment
 - **1117-B:** Emotes
 - **1117-C:** Magic Ship
@@ -90,9 +92,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1119-A:** Ilya and a Colorful Walk
 - **1119-B:** Alyona and a Narrow Fridge
 - **1119-E:** Pavel and Triangles
+- **1120-A:** Diana and Liana
 - **1131-A:** Sea Battle
 - **1131-B:** Draw!
 - **1131-C:** Birthday
+- **1133-F2:** Spanning Tree with One Fixed Degree
 - **1136-A:** Nastya Is Reading a Book
 - **1136-B:** Nastya Is Playing Computer Games
 - **1136-C:** Nastya Is Transposing Matrices
@@ -115,6 +119,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1141-F1:** Same Sum Blocks (Easy)
 - **1141-F2:** Same Sum Blocks (Hard)
 - **1141-G:** Privatization of Roads in Treeland
+- **1144-E:** Median String
+- **1147-B:** Chladni Figure
 - **1151-C:** Problem for Nazar
 - **1153-D:** Serval and Rooted Tree
 - **1155-D:** Beautiful Array
