@@ -222,6 +222,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1316-A:** Grade Allocation
 - **1316-B:** String Modification
 - **1316-C:** Primitive Primes
+- **1320-C:** World of Darkraft: Battle for Azathoth
 - **1321-A:** Contest for Robots
 - **1321-B:** Journey Planning
 - **1321-C:** Remove Adjacent
@@ -255,7 +256,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1345-A:** Puzzle Pieces
 - **1345-B:** Card Constructions
 - **1345-C:** Hilbert's Hotel
+- **1345-D:** Monopole Magnets
 - **1348-D:** Phoenix and Science
+- **1349-B:** Orac and Medians
+- **1349-C:** Orac and Game of Life
 - **1353-A:** Most Unstable Array
 - **1353-B:** Two Arrays And Swaps
 - **1353-C:** Board Moves
@@ -287,6 +291,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1360-F:** Spy-string
 - **1360-G:** A/B Matrix
 - **1360-H:** Binary Median
+- **1362-A:** Johnny and Ancient Computer
+- **1362-B:** Johnny and His Hobbies
+- **1362-C:** Johnny and Another Rating Drop
+- **1362-D:** Johnny and Contribution
+- **1362-E:** Johnny and Grandmaster
 - **1363-A:** Odd Selection
 - **1363-B:** Subsequence Hate
 - **1363-C:** Game On Leaves
