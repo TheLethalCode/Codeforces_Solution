@@ -307,3 +307,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1363-C:** Game On Leaves
 - **1363-D:** Guess The Maximums
 - **1363-E:** Tree Shuffling
+- **1365-A:** Matrix Game
+- **1365-B:** Trouble Sort
+- **1365-C:** Rotation Matching
+- **1365-D:** Solve The Maze
+- **1365-E:** Maximum Subsequence Value
