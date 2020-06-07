@@ -188,7 +188,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1277-D:** Let's Play the Words?
 - **1283-E:** New Year Parties
 - **1285-D:** Dr. Evil Underscores
+- **1288-D:** Minimax Problem
+- **1288-E:** Messenger Simulator
 - **1294-E:** Obtain a Permutation
+- **1294-F:** Three Paths on a Tree
+- **1296-E2:** String Coloring (hard version)
 - **1301-A:** Three Strings
 - **1301-B:** Motarack's Birthday
 - **1301-C:** Ayoub's function
@@ -201,6 +205,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1304-B:** Longest Palindrome
 - **1304-C:** Air Conditioner
 - **1304-D:** Shortest and Longest LIS
+- **1304-E:** 1-Trees and Queries
 - **1305-A:** Kuroni and the Gifts
 - **1305-B:** Kuroni and Simple Strings
 - **1305-C:** Kuroni and Impossible Calculation
@@ -222,6 +227,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1316-A:** Grade Allocation
 - **1316-B:** String Modification
 - **1316-C:** Primitive Primes
+- **1316-D:** Nash Matrix
 - **1320-C:** World of Darkraft: Battle for Azathoth
 - **1321-A:** Contest for Robots
 - **1321-B:** Journey Planning
