@@ -156,8 +156,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1236-C:** Labs
 - **1236-D:** Alice and the Doll
 - **1237-C2:** Balanced Removals (Harder)
+- **1237-D:** Balanced Playlist
 - **1238-D:** AB-string
 - **1242-B:** 0-1 MST
+- **1244-C:** The Football Season
+- **1244-E:** Minimizing Difference
 - **1245-D:** Shichikuji and Power Grid
 - **1247-A:** Forgetting Things
 - **1247-B1:** TV Subscriptions (Easy Version)
@@ -175,17 +178,24 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1249-D1:** Too Many Segments (easy version)
 - **1249-D2:** Too Many Segments (hard version)
 - **1249-E:** By Elevator or Stairs?
+- **1250-N:** Wires
 - **1251-A:** Broken Keyboard
 - **1251-B:** Binary Palindromes
 - **1251-C:** Minimize The Integer
 - **1251-D:** Salary Changing
 - **1256-C:** Platforms Jumping
+- **1256-E:** Yet Another Division Into Teams
+- **1256-F:** Equalizing Two Strings
+- **1257-E:** The Contest
 - **1260-D:** A Game with Traps
 - **1264-B:** Beautiful Sequence
+- **1266-D:** Decreasing Debts
+- **1269-D:** Domino for Young
 - **1270-D:** Strange Device
 - **1272-E:** Nearest Opposite Parity
 - **1276-B:** Two Fairs
 - **1277-D:** Let's Play the Words?
+- **1280-C:** Jeremy Bearimy
 - **1283-E:** New Year Parties
 - **1285-D:** Dr. Evil Underscores
 - **1288-D:** Minimax Problem
