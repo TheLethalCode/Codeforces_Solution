@@ -38,6 +38,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1061-C:** Multiplicity
 - **1073-C:** Vasya and Robot
 - **1083-A:** The Fair Nut and the Best Path
+- **1091-C:** New Year and the Sphere Transmission
 - **1097-A:** Gennady and a Card Game
 - **1097-B:** Petr and a Combination Lock
 - **1097-C:** Yuhao and a Parenthesis
@@ -141,18 +142,27 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1200-D:** White Lines
 - **1202-D:** Print a 1337-string...
 - **1203-D2:** Remove the Substring (hard version)
+- **1204-D1:** Kirk and a Binary String (easy version)
+- **1204-D2:** Kirk and a Binary String (hard version)
 - **1205-B:** Shortest Cycle
 - **1207-E:** XOR Guessing
 - **1208-D:** Restore Permutation
+- **1209-E1:** Rotate Columns (easy version)
+- **1209-G1:** Into Blocks (easy version)
+- **1210-C:** Kamil and Making a Stream
 - **1213-E:** Two Small Strings
 - **1214-D:** Treasure Island
+- **1214-E:** Petya and Construction Set
 - **1216-A:** Prefixes
 - **1216-B:** Shooting
 - **1216-D:** Swords
 - **1216-E1:** Numerical Sequence (easy version)
 - **1216-E2:** Numerical Sequence (hard version)
+- **1219-G:** Harvester
 - **1220-D:** Alex and Julian
+- **1223-D:** Sequence Sorting
 - **1228-D:** Complete Tripartite
+- **1234-E:** Special Permutations
 - **1236-C:** Labs
 - **1236-D:** Alice and the Doll
 - **1237-C2:** Balanced Removals (Harder)

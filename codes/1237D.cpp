@@ -42,23 +42,17 @@ int main(int argc, char **argv)
 {
     crap;
     cin>>n;
-    vi v(2*n), next(n,-1), half(n, -1);
+    vi v(2*n), next(n,-1), half(n, -1), ans(n, 0);;
     FOR(i, n) cin>>v[i], v[i+n]=v[i];
-    vi stack;
+    vi stack; set< pa , greater< pa > > test;
     FOR(i, 2*n){
         while(!stack.empty() && v[stack.back()] < v[i])
             next[stack.back()] = i, stack.pop_back();
-        if(i < n)
-            stack.pb(i);
-    }
-    set< pa , greater< pa > > test;
-    FOR(i, 2*n){
         while(!test.empty() && test.begin()->fi > v[i]*2)
             half[test.begin()->se] = i, test.erase(test.begin());
-        if(i<n)
-            test.insert({v[i], i});
+        if(i < n)
+            test.insert({v[i], i}), stack.pb(i);
     }
-    vi ans(n, 0);
     FOR(i, n)
         if(!ans[i]) solve(i, ans, next, half);
     debugA(ans);
