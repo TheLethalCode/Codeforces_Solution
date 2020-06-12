@@ -128,6 +128,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1157-D:** N Problems During K Days
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
+- **1165-F1:** Microtransactions (easy version)
 - **1165-F2:** Microtransactions (hard version)
 - **1168-A:** Increasing by Modulo
 - **1168-B:** Good Triple
