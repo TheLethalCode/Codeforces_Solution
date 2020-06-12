@@ -128,6 +128,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1157-D:** N Problems During K Days
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
+- **1165-F2:** Microtransactions (hard version)
 - **1168-A:** Increasing by Modulo
 - **1168-B:** Good Triple
 - **1172-B:** Nauuo and Circle
@@ -136,10 +137,15 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1177-B:** Digits Sequence (Hard Edition)
 - **1178-E:** Archaeology
 - **1181-C:** Flag
+- **1183-G:** Candy Box (hard version)
 - **1183-H:** Subsequences (hard version)
 - **1184-E1:** Daleks' Invasion (easy)
+- **1185-E:** Polycarp and Snakes
+- **1190-D:** Tokitsukaze and Strange Rectangle
 - **1197-D:** Yet Another Subarray Problem
+- **1198-C:** Matching vs Independent Set
 - **1200-D:** White Lines
+- **1200-E:** Compress Words
 - **1202-D:** Print a 1337-string...
 - **1203-D2:** Remove the Substring (hard version)
 - **1204-D1:** Kirk and a Binary String (easy version)
@@ -332,3 +338,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1365-C:** Rotation Matching
 - **1365-D:** Solve The Maze
 - **1365-E:** Maximum Subsequence Value
+- **1366-A:** Shovels and Swords
+- **1366-B:** Shuffle
+- **1366-C:** Palindromic Paths
+- **1366-D:** Two Divisors
+- **1366-E:** Two Arrays
