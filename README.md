@@ -55,6 +55,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1102-C:** Doors Breaking and Repairing
 - **1102-D:** Balanced Ternary String
 - **1102-E:** Monotonic Renumeration
+- **1103-B:** Game with modulo
 - **1105-D:** Kilani and the Game
 - **1106-A:** Lunar New Year and Cross Counting
 - **1106-B:** Lunar New Year and Food Ordering
@@ -97,6 +98,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1131-A:** Sea Battle
 - **1131-B:** Draw!
 - **1131-C:** Birthday
+- **1132-F:** Clear the String
 - **1133-F2:** Spanning Tree with One Fixed Degree
 - **1136-A:** Nastya Is Reading a Book
 - **1136-B:** Nastya Is Playing Computer Games
@@ -120,12 +122,16 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1141-F1:** Same Sum Blocks (Easy)
 - **1141-F2:** Same Sum Blocks (Hard)
 - **1141-G:** Privatization of Roads in Treeland
+- **1142-B:** Lynyrd Skynyrd
 - **1144-E:** Median String
 - **1147-B:** Chladni Figure
+- **1147-C:** Thanos Nim
 - **1151-C:** Problem for Nazar
 - **1153-D:** Serval and Rooted Tree
 - **1155-D:** Beautiful Array
+- **1156-C:** Match Points
 - **1157-D:** N Problems During K Days
+- **1157-F:** Maximum Balanced Circle
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
 - **1165-F1:** Microtransactions (easy version)
@@ -334,6 +340,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1363-C:** Game On Leaves
 - **1363-D:** Guess The Maximums
 - **1363-E:** Tree Shuffling
+- **1364-A:** XXXXX
+- **1364-B:** Most socially-distanced subsequence
+- **1364-C:** Ehab and Prefix MEXs
+- **1364-D:** Ehab's Last Corollary
 - **1365-A:** Matrix Game
 - **1365-B:** Trouble Sort
 - **1365-C:** Rotation Matching
