@@ -32,8 +32,7 @@ int main()
     {
         if(i)
             ans*=2,ans%=mod;
-        int las=la[v[i]];
-        int j=i+1;
+        int las=la[v[i]], j=i+1;
         while(j<=las)
         {
             las=max(las,la[v[j]]);

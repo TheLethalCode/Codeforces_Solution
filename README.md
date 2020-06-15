@@ -55,6 +55,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1102-C:** Doors Breaking and Repairing
 - **1102-D:** Balanced Ternary String
 - **1102-E:** Monotonic Renumeration
+- **1102-F:** Elongated Matrix
 - **1103-B:** Game with modulo
 - **1105-D:** Kilani and the Game
 - **1106-A:** Lunar New Year and Cross Counting
@@ -95,9 +96,11 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1119-B:** Alyona and a Narrow Fridge
 - **1119-E:** Pavel and Triangles
 - **1120-A:** Diana and Liana
+- **1129-B:** Wrong Answer
 - **1131-A:** Sea Battle
 - **1131-B:** Draw!
 - **1131-C:** Birthday
+- **1131-D:** Gourmet choice
 - **1132-F:** Clear the String
 - **1133-F2:** Spanning Tree with One Fixed Degree
 - **1136-A:** Nastya Is Reading a Book
@@ -286,12 +289,14 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1328-D:** Carousel
 - **1328-E:** Tree Queries
 - **1329-A:** Dreamoon Likes Coloring
+- **1333-D:** Challenges in school №41
 - **1334-D:** Minimum Euler Cycle
 - **1335-E2:** Three Blocks Palindrome (hard version)
 - **1338-B:** Edge Weight Assignment
 - **1340-B:** Nastya and Scoreboard
 - **1342-D:** Multiple Testcases
 - **1343-D:** Constant Palindrome Sum
+- **1343-E:** Weights Distributing
 - **1345-A:** Puzzle Pieces
 - **1345-B:** Card Constructions
 - **1345-C:** Hilbert's Hotel
@@ -309,10 +314,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1354-C1:** Simple Polygon Embedding
 - **1354-C2:** Not So Simple Polygon Embedding
 - **1354-D:** Multiset
+- **1354-E:** Graph Coloring
 - **1355-A:** Sequence with Digits
 - **1355-B:** Young Explorers
 - **1355-C:** Count Triangles
 - **1355-D:** Game With Array
+- **1355-E:** Restorer Distance
 - **1358-A:** Park Lighting
 - **1358-B:** Maria Breaks the Self-isolation
 - **1358-C:** Celex Update
@@ -349,6 +356,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1365-C:** Rotation Matching
 - **1365-D:** Solve The Maze
 - **1365-E:** Maximum Subsequence Value
+- **1365-F:** Swaps Again
 - **1366-A:** Shovels and Swords
 - **1366-B:** Shuffle
 - **1366-C:** Palindromic Paths
