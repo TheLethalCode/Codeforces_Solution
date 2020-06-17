@@ -21,6 +21,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **478-D:** Red-Green Towers
 - **484-B:** Maximum Value
 - **487-A:** Fight the Monster
+- **510-D:** Fox And Jumping
 - **520-B:** Two Buttons
 - **767-A:** Snacktower
 - **767-B:** The Queue
@@ -229,6 +230,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1294-E:** Obtain a Permutation
 - **1294-F:** Three Paths on a Tree
 - **1296-E2:** String Coloring (hard version)
+- **1299-C:** Water Balance
 - **1301-A:** Three Strings
 - **1301-B:** Motarack's Birthday
 - **1301-C:** Ayoub's function
@@ -259,6 +261,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1312-B:** Bogosort
 - **1312-C:** Adding Powers
 - **1312-D:** Count the Arrays
+- **1312-E:** Array Shrinking
 - **1313-C2:** Skyscrapers (hard version)
 - **1316-A:** Grade Allocation
 - **1316-B:** String Modification
@@ -289,6 +292,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1328-D:** Carousel
 - **1328-E:** Tree Queries
 - **1329-A:** Dreamoon Likes Coloring
+- **1332-E:** Height All the Same
 - **1333-D:** Challenges in school №41
 - **1334-D:** Minimum Euler Cycle
 - **1335-E2:** Three Blocks Palindrome (hard version)
@@ -362,3 +366,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1366-C:** Palindromic Paths
 - **1366-D:** Two Divisors
 - **1366-E:** Two Arrays
+- **1367-A:** Short Substrings
+- **1367-B:** Even Array
+- **1367-C:** Social Distance
+- **1367-D:** Task On The Board
+- **1367-E:** Necklace Assembly
+- **1367-F1:** Flying Sort (Easy Version)
