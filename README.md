@@ -167,6 +167,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1209-E1:** Rotate Columns (easy version)
 - **1209-G1:** Into Blocks (easy version)
 - **1210-C:** Kamil and Making a Stream
+- **1213-D2:** Equalizing by Division (hard version)
 - **1213-E:** Two Small Strings
 - **1214-D:** Treasure Island
 - **1214-E:** Petya and Construction Set
@@ -210,26 +211,37 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1251-B:** Binary Palindromes
 - **1251-C:** Minimize The Integer
 - **1251-D:** Salary Changing
+- **1254-B1:** Send Boxes to Alice (Easy Version)
+- **1254-B2:** Send Boxes to Alice (Hard Version)
 - **1256-C:** Platforms Jumping
 - **1256-E:** Yet Another Division Into Teams
 - **1256-F:** Equalizing Two Strings
 - **1257-E:** The Contest
 - **1260-D:** A Game with Traps
+- **1263-E:** Editor
 - **1264-B:** Beautiful Sequence
+- **1265-E:** Beautiful Mirrors
 - **1266-D:** Decreasing Debts
+- **1266-E:** Spaceship Solitaire
+- **1267-K:** Key Storage
 - **1269-D:** Domino for Young
 - **1270-D:** Strange Device
+- **1271-D:** Portals
+- **1271-E:** Common Number
 - **1272-E:** Nearest Opposite Parity
 - **1276-B:** Two Fairs
 - **1277-D:** Let's Play the Words?
+- **1278-D:** Segment Tree
 - **1280-C:** Jeremy Bearimy
 - **1283-E:** New Year Parties
+- **1284-D:** New Year and Conference
 - **1285-D:** Dr. Evil Underscores
 - **1288-D:** Minimax Problem
 - **1288-E:** Messenger Simulator
 - **1294-E:** Obtain a Permutation
 - **1294-F:** Three Paths on a Tree
 - **1296-E2:** String Coloring (hard version)
+- **1296-F:** Berland Beauty
 - **1299-C:** Water Balance
 - **1301-A:** Three Strings
 - **1301-B:** Motarack's Birthday
@@ -372,3 +384,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1367-D:** Task On The Board
 - **1367-E:** Necklace Assembly
 - **1367-F1:** Flying Sort (Easy Version)
+- **1368-A:** C+=
+- **1368-B:** Codeforces Subsequences
+- **1368-C:** Even Picture
+- **1368-D:** AND, OR and square sum
+- **1370-A:** Maximum GCD
+- **1370-B:** GCD Compression
+- **1370-C:** Number Game
+- **1370-D:** Odd-Even Subsequence
+- **1370-E:** Binary Subsequence Rotation
