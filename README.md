@@ -157,18 +157,24 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1198-C:** Matching vs Independent Set
 - **1200-D:** White Lines
 - **1200-E:** Compress Words
+- **1201-B:** Zero Array
+- **1201-D:** Treasure Hunting
+- **1202-C:** You Are Given a WASD-string...
 - **1202-D:** Print a 1337-string...
 - **1203-D2:** Remove the Substring (hard version)
+- **1203-F1:** Complete the Projects (easy version)
 - **1204-D1:** Kirk and a Binary String (easy version)
 - **1204-D2:** Kirk and a Binary String (hard version)
 - **1205-B:** Shortest Cycle
 - **1207-E:** XOR Guessing
+- **1207-F:** Remainder Problem
 - **1208-D:** Restore Permutation
 - **1209-E1:** Rotate Columns (easy version)
 - **1209-G1:** Into Blocks (easy version)
 - **1210-C:** Kamil and Making a Stream
 - **1213-D2:** Equalizing by Division (hard version)
 - **1213-E:** Two Small Strings
+- **1213-F:** Unstable String Sort
 - **1214-D:** Treasure Island
 - **1214-E:** Petya and Construction Set
 - **1216-A:** Prefixes
@@ -176,9 +182,13 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1216-D:** Swords
 - **1216-E1:** Numerical Sequence (easy version)
 - **1216-E2:** Numerical Sequence (hard version)
+- **1216-F:** Wi-Fi
+- **1217-D:** Coloring Edges
+- **1218-I:** The Light Square
 - **1219-G:** Harvester
 - **1220-D:** Alex and Julian
 - **1223-D:** Sequence Sorting
+- **1223-E:** Paint the Tree
 - **1228-D:** Complete Tripartite
 - **1234-E:** Special Permutations
 - **1236-C:** Labs
@@ -206,11 +216,14 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1249-D1:** Too Many Segments (easy version)
 - **1249-D2:** Too Many Segments (hard version)
 - **1249-E:** By Elevator or Stairs?
+- **1250-C:** Trip to Saint Petersburg
 - **1250-N:** Wires
 - **1251-A:** Broken Keyboard
 - **1251-B:** Binary Palindromes
 - **1251-C:** Minimize The Integer
 - **1251-D:** Salary Changing
+- **1252-G:** Performance Review
+- **1252-K:** Addition Robot
 - **1254-B1:** Send Boxes to Alice (Easy Version)
 - **1254-B2:** Send Boxes to Alice (Hard Version)
 - **1256-C:** Platforms Jumping
@@ -388,8 +401,23 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1368-B:** Codeforces Subsequences
 - **1368-C:** Even Picture
 - **1368-D:** AND, OR and square sum
+- **1369-A:** FashionabLee
+- **1369-B:** AccurateLee
+- **1369-C:** RationalLee
+- **1369-D:** TediousLee
 - **1370-A:** Maximum GCD
 - **1370-B:** GCD Compression
 - **1370-C:** Number Game
 - **1370-D:** Odd-Even Subsequence
 - **1370-E:** Binary Subsequence Rotation
+- **1373-A:** Donut Shops
+- **1373-B:** 01 Game
+- **1373-C:** Pluses and Minuses
+- **1373-D:** Maximum Sum on Even Positions
+- **1373-E:** Sum of Digits
+- **1374-A:** Required Remainder
+- **1374-B:** Multiply by 2, divide by 6
+- **1374-C:** Move Brackets
+- **1374-D:** Zero Remainder Array
+- **1374-E1:** Reading Books (easy version)
+- **1374-F:** Cyclic Shifts Sorting
