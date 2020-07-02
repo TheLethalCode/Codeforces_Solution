@@ -136,23 +136,36 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1156-C:** Match Points
 - **1157-D:** N Problems During K Days
 - **1157-F:** Maximum Balanced Circle
+- **1158-A:** The Party and Sweets
+- **1158-C:** Permutation recovery
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
+- **1163-D:** Mysterious Code
 - **1165-F1:** Microtransactions (easy version)
 - **1165-F2:** Microtransactions (hard version)
+- **1166-E:** The LCMs Must be Large
+- **1167-E:** Range Deleting
 - **1168-A:** Increasing by Modulo
 - **1168-B:** Good Triple
 - **1172-B:** Nauuo and Circle
 - **1174-D:** Ehab and the Expected XOR Problem
 - **1175-D:** Array Splitting
+- **1176-F:** Destroy it!
 - **1177-B:** Digits Sequence (Hard Edition)
 - **1178-E:** Archaeology
 - **1181-C:** Flag
+- **1183-F:** Topforces Strikes Back
 - **1183-G:** Candy Box (hard version)
 - **1183-H:** Subsequences (hard version)
+- **1184-A2:** Heidi Learns Hashing (Medium)
 - **1184-E1:** Daleks' Invasion (easy)
+- **1184-E2:** Daleks' Invasion (medium)
 - **1185-E:** Polycarp and Snakes
+- **1185-F:** Two Pizzas
+- **1185-G1:** Playlist for Polycarp (easy version)
+- **1187-E:** Tree Painting
 - **1190-D:** Tokitsukaze and Strange Rectangle
+- **1195-E:** OpenStreetMap
 - **1197-D:** Yet Another Subarray Problem
 - **1198-C:** Matching vs Independent Set
 - **1200-D:** White Lines
@@ -410,6 +423,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1370-C:** Number Game
 - **1370-D:** Odd-Even Subsequence
 - **1370-E:** Binary Subsequence Rotation
+- **1371-A:** Magical Sticks
+- **1371-B:** Magical Calendar
+- **1371-C:** A Cookie for You
+- **1371-D:** Grid-00100
+- **1371-E1:** Asterism (Easy Version)
+- **1371-E2:** Asterism (Hard Version)
 - **1373-A:** Donut Shops
 - **1373-B:** 01 Game
 - **1373-C:** Pluses and Minuses
@@ -420,4 +439,5 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1374-C:** Move Brackets
 - **1374-D:** Zero Remainder Array
 - **1374-E1:** Reading Books (easy version)
+- **1374-E2:** Reading Books (hard version)
 - **1374-F:** Cyclic Shifts Sorting
