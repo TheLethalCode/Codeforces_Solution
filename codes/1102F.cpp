@@ -80,8 +80,6 @@ int main(int argc, char **argv)
     crap;
     cin>>n>>m;
     FOR(i, n) FOR(j, m) cin>>v[i][j];
-    // can(5);
-    // exit(0);
     int ans = 0;
     for(int i=29;i>=0;i--) if(can(ans+(1<<i))) ans+=1<<i;
     cout<<ans<<endl;

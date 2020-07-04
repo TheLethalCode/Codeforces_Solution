@@ -63,6 +63,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1106-B:** Lunar New Year and Food Ordering
 - **1106-C:** Lunar New Year and Number Division
 - **1106-D:** Lunar New Year and a Wander
+- **1106-E:** Lunar New Year and Red Envelopes
 - **1107-A:** Digits Sequence Dividing
 - **1107-B:** Digital root
 - **1107-C:** Brutality
@@ -71,6 +72,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1108-B:** Divisors of Two Integers
 - **1108-C:** Nice Garland
 - **1108-D:** Diverse Garland
+- **1108-E1:** Array and Segments (Easy version)
+- **1108-E2:** Array and Segments (Hard version)
+- **1108-F:** MST Unification
 - **1110-A:** Parity
 - **1110-B:** Tape
 - **1110-C:** Meaningless Operations
@@ -88,6 +92,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1117-A:** Best Subsegment
 - **1117-B:** Emotes
 - **1117-C:** Magic Ship
+- **1117-D:** Magic Gems
 - **1118-A:** Water Buying
 - **1118-B:** Tanya and Candies
 - **1118-C:** Palindromic Matrix
@@ -97,6 +102,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1119-B:** Alyona and a Narrow Fridge
 - **1119-E:** Pavel and Triangles
 - **1120-A:** Diana and Liana
+- **1120-C:** Compress String
 - **1129-B:** Wrong Answer
 - **1131-A:** Sea Battle
 - **1131-B:** Draw!
@@ -128,10 +134,14 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1141-G:** Privatization of Roads in Treeland
 - **1142-B:** Lynyrd Skynyrd
 - **1144-E:** Median String
+- **1146-D:** Frog Jumping
 - **1147-B:** Chladni Figure
 - **1147-C:** Thanos Nim
 - **1151-C:** Problem for Nazar
+- **1151-E:** Number of Components
+- **1152-D:** Neko and Aki's Prank
 - **1153-D:** Serval and Rooted Tree
+- **1154-F:** Shovels Shop
 - **1155-D:** Beautiful Array
 - **1156-C:** Match Points
 - **1157-D:** N Problems During K Days
