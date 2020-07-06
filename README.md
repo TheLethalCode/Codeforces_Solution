@@ -339,12 +339,18 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1327-C:** Game with Chips
 - **1328-D:** Carousel
 - **1328-E:** Tree Queries
+- **1328-F:** Make k Equal
 - **1329-A:** Dreamoon Likes Coloring
 - **1332-E:** Height All the Same
 - **1333-D:** Challenges in school №41
+- **1333-F:** Kate and imperfection
 - **1334-D:** Minimum Euler Cycle
+- **1334-E:** Divisor Paths
 - **1335-E2:** Three Blocks Palindrome (hard version)
+- **1335-F:** Robots on a Grid
+- **1336-C:** Kaavi and Magic Spell
 - **1338-B:** Edge Weight Assignment
+- **1338-C:** Perfect Triples
 - **1340-B:** Nastya and Scoreboard
 - **1342-D:** Multiple Testcases
 - **1343-D:** Constant Palindrome Sum
@@ -353,6 +359,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1345-B:** Card Constructions
 - **1345-C:** Hilbert's Hotel
 - **1345-D:** Monopole Magnets
+- **1348-C:** Phoenix and Distribution
 - **1348-D:** Phoenix and Science
 - **1349-B:** Orac and Medians
 - **1349-C:** Orac and Game of Life
@@ -361,6 +368,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1353-C:** Board Moves
 - **1353-D:** Constructing the Array
 - **1353-E:** K-periodic Garland
+- **1353-F:** Decreasing Heights
 - **1354-A:** Alarm Clock
 - **1354-B:** Ternary String
 - **1354-C1:** Simple Polygon Embedding
@@ -451,15 +459,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1374-E1:** Reading Books (easy version)
 - **1374-E2:** Reading Books (hard version)
 - **1374-F:** Cyclic Shifts Sorting
-- **1375-C:** Element Extermination
-- **1334-E:** Divisor Paths
-- **1375-E:** Inversion SwapSort
-- **1348-C:** Phoenix and Distribution
-- **1338-C:** Perfect Triples
-- **1328-F:** Make k Equal
-- **1353-F:** Decreasing Heights
-- **1375-F:** Integer Game
 - **1375-A:** Sign Flipping
 - **1375-B:** Neighbor Grid
+- **1375-C:** Element Extermination
 - **1375-D:** Replace by MEX
-- **1336-C:** Kaavi and Magic Spell
+- **1375-E:** Inversion SwapSort
+- **1375-F:** Integer Game
