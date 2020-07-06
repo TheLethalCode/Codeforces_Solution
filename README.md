@@ -451,3 +451,15 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1374-E1:** Reading Books (easy version)
 - **1374-E2:** Reading Books (hard version)
 - **1374-F:** Cyclic Shifts Sorting
+- **1375-C:** Element Extermination
+- **1334-E:** Divisor Paths
+- **1375-E:** Inversion SwapSort
+- **1348-C:** Phoenix and Distribution
+- **1338-C:** Perfect Triples
+- **1328-F:** Make k Equal
+- **1353-F:** Decreasing Heights
+- **1375-F:** Integer Game
+- **1375-A:** Sign Flipping
+- **1375-B:** Neighbor Grid
+- **1375-D:** Replace by MEX
+- **1336-C:** Kaavi and Magic Spell
