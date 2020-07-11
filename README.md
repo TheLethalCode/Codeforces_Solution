@@ -200,6 +200,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1213-F:** Unstable String Sort
 - **1214-D:** Treasure Island
 - **1214-E:** Petya and Construction Set
+- **1215-E:** Marbles
 - **1216-A:** Prefixes
 - **1216-B:** Shooting
 - **1216-D:** Swords
@@ -210,15 +211,24 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1218-I:** The Light Square
 - **1219-G:** Harvester
 - **1220-D:** Alex and Julian
+- **1220-E:** Tourism
 - **1223-D:** Sequence Sorting
 - **1223-E:** Paint the Tree
+- **1225-E:** Rock Is Push
+- **1227-E:** Arson In Berland Forest
+- **1227-F1:** Wrong Answer on test 233 (Easy Version)
+- **1227-F2:** Wrong Answer on test 233 (Hard Version)
 - **1228-D:** Complete Tripartite
+- **1231-E:** Middle-Out
 - **1234-E:** Special Permutations
+- **1234-F:** Yet Another Substring Reverse
 - **1236-C:** Labs
 - **1236-D:** Alice and the Doll
 - **1237-C2:** Balanced Removals (Harder)
 - **1237-D:** Balanced Playlist
 - **1238-D:** AB-string
+- **1238-E:** Keyboard Purchase
+- **1238-F:** The Maximum Subtree
 - **1242-B:** 0-1 MST
 - **1244-C:** The Football Season
 - **1244-E:** Minimizing Difference
@@ -239,14 +249,17 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1249-D1:** Too Many Segments (easy version)
 - **1249-D2:** Too Many Segments (hard version)
 - **1249-E:** By Elevator or Stairs?
+- **1249-F:** Maximum Weight Subset
 - **1250-C:** Trip to Saint Petersburg
 - **1250-N:** Wires
 - **1251-A:** Broken Keyboard
 - **1251-B:** Binary Palindromes
 - **1251-C:** Minimize The Integer
 - **1251-D:** Salary Changing
+- **1252-E:** Songwriter
 - **1252-G:** Performance Review
 - **1252-K:** Addition Robot
+- **1253-E:** Antenna Coverage
 - **1254-B1:** Send Boxes to Alice (Easy Version)
 - **1254-B2:** Send Boxes to Alice (Hard Version)
 - **1256-C:** Platforms Jumping
@@ -265,17 +278,21 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1271-D:** Portals
 - **1271-E:** Common Number
 - **1272-E:** Nearest Opposite Parity
+- **1272-F:** Two Bracket Sequences
 - **1276-B:** Two Fairs
 - **1277-D:** Let's Play the Words?
 - **1278-D:** Segment Tree
+- **1278-E:** Tests for problem D
 - **1280-C:** Jeremy Bearimy
 - **1283-E:** New Year Parties
+- **1283-F:** DIY Garland
 - **1284-D:** New Year and Conference
 - **1285-D:** Dr. Evil Underscores
 - **1288-D:** Minimax Problem
 - **1288-E:** Messenger Simulator
 - **1294-E:** Obtain a Permutation
 - **1294-F:** Three Paths on a Tree
+- **1295-E:** Permutation Separation
 - **1296-E2:** String Coloring (hard version)
 - **1296-F:** Berland Beauty
 - **1299-C:** Water Balance
@@ -287,6 +304,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1303-B:** National Project
 - **1303-C:** Perfect Keyboard
 - **1303-D:** Fill The Bag
+- **1303-E:** Erase Subsequences
 - **1304-A:** Two Rabbits
 - **1304-B:** Longest Palindrome
 - **1304-C:** Air Conditioner
@@ -296,6 +314,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1305-B:** Kuroni and Simple Strings
 - **1305-C:** Kuroni and Impossible Calculation
 - **1305-D:** Kuroni and the Celebration
+- **1305-E:** Kuroni and the Score Distribution
 - **1307-A:** Cow and Haybales
 - **1307-B:** Cow and Friend
 - **1307-C:** Cow and Message
@@ -304,6 +323,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1311-B:** WeirdSort
 - **1311-C:** Perform the Combo
 - **1311-D:** Three Integers
+- **1311-E:** Construct the Binary Tree
 - **1311-F:** Moving Points
 - **1312-A:** Two Regular Polygons
 - **1312-B:** Bogosort
@@ -337,6 +357,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1326-C:** Permutation Partitions
 - **1326-D1:** Prefix-Suffix Palindrome (Easy version)
 - **1327-C:** Game with Chips
+- **1327-D:** Infinite Path
 - **1328-D:** Carousel
 - **1328-E:** Tree Queries
 - **1328-F:** Make k Equal
@@ -348,6 +369,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1334-E:** Divisor Paths
 - **1335-E2:** Three Blocks Palindrome (hard version)
 - **1335-F:** Robots on a Grid
+- **1336-A:** Linova and Kingdom
 - **1336-C:** Kaavi and Magic Spell
 - **1338-B:** Edge Weight Assignment
 - **1338-C:** Perfect Triples
