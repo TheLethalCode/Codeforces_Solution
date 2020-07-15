@@ -23,6 +23,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **487-A:** Fight the Monster
 - **510-D:** Fox And Jumping
 - **520-B:** Two Buttons
+- **609-E:** Minimum spanning tree for each edge
 - **767-A:** Snacktower
 - **767-B:** The Queue
 - **777-D:** Cloud of Hashtags
@@ -160,14 +161,20 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1172-B:** Nauuo and Circle
 - **1174-D:** Ehab and the Expected XOR Problem
 - **1175-D:** Array Splitting
+- **1175-E:** Minimal Segment Cover
 - **1176-F:** Destroy it!
 - **1177-B:** Digits Sequence (Hard Edition)
 - **1178-E:** Archaeology
+- **1178-F1:** Short Colorful Strip
+- **1179-C:** Serge and Dining Room
 - **1181-C:** Flag
+- **1181-D:** Irrigation
 - **1183-F:** Topforces Strikes Back
 - **1183-G:** Candy Box (hard version)
 - **1183-H:** Subsequences (hard version)
 - **1184-A2:** Heidi Learns Hashing (Medium)
+- **1184-B2:** The Doctor Meets Vader (Medium)
+- **1184-C2:** Heidi and the Turing Test (Medium)
 - **1184-E1:** Daleks' Invasion (easy)
 - **1184-E2:** Daleks' Invasion (medium)
 - **1185-E:** Polycarp and Snakes
@@ -175,7 +182,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1185-G1:** Playlist for Polycarp (easy version)
 - **1187-E:** Tree Painting
 - **1190-D:** Tokitsukaze and Strange Rectangle
+- **1194-E:** Count The Rectangles
 - **1195-E:** OpenStreetMap
+- **1196-F:** K-th Path
 - **1197-D:** Yet Another Subarray Problem
 - **1198-C:** Matching vs Independent Set
 - **1200-D:** White Lines
@@ -192,6 +201,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1207-E:** XOR Guessing
 - **1207-F:** Remainder Problem
 - **1208-D:** Restore Permutation
+- **1208-E:** Let Them Slide
 - **1209-E1:** Rotate Columns (easy version)
 - **1209-G1:** Into Blocks (easy version)
 - **1210-C:** Kamil and Making a Stream
@@ -288,6 +298,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1283-F:** DIY Garland
 - **1284-D:** New Year and Conference
 - **1285-D:** Dr. Evil Underscores
+- **1288-C:** Two Arrays
 - **1288-D:** Minimax Problem
 - **1288-E:** Messenger Simulator
 - **1294-E:** Obtain a Permutation
@@ -469,6 +480,10 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1371-D:** Grid-00100
 - **1371-E1:** Asterism (Easy Version)
 - **1371-E2:** Asterism (Hard Version)
+- **1372-A:** Omkar and Completion
+- **1372-B:** Omkar and Last Class of Math
+- **1372-C:** Omkar and Baseball
+- **1372-D:** Omkar and Circle
 - **1373-A:** Donut Shops
 - **1373-B:** 01 Game
 - **1373-C:** Pluses and Minuses
@@ -487,3 +502,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1375-D:** Replace by MEX
 - **1375-E:** Inversion SwapSort
 - **1375-F:** Integer Game
+- **1380-A:** Three Indices
+- **1380-B:** Universal Solution
+- **1380-C:** Create The Teams
+- **1380-D:** Berserk And Fireball
+- **1380-E:** Merging Towers
