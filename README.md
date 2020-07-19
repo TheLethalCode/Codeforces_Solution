@@ -142,22 +142,31 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1151-E:** Number of Components
 - **1152-D:** Neko and Aki's Prank
 - **1153-D:** Serval and Rooted Tree
+- **1153-E:** Serval and Snake
 - **1154-F:** Shovels Shop
+- **1154-G:** Minimum Possible LCM
 - **1155-D:** Beautiful Array
+- **1155-E:** Guess the Root
 - **1156-C:** Match Points
+- **1156-D:** 0-1-Tree
+- **1156-E:** Special Segments of Permutation
 - **1157-D:** N Problems During K Days
 - **1157-F:** Maximum Balanced Circle
+- **1157-G:** Inverse of Rows and Columns
 - **1158-A:** The Party and Sweets
+- **1158-B:** The minimal unique substring
 - **1158-C:** Permutation recovery
 - **1163-C1:** Power Transmission (Easy Edition)
 - **1163-C2:** Power Transmission (Hard Edition)
 - **1163-D:** Mysterious Code
 - **1165-F1:** Microtransactions (easy version)
 - **1165-F2:** Microtransactions (hard version)
+- **1166-D:** Cute Sequences
 - **1166-E:** The LCMs Must be Large
 - **1167-E:** Range Deleting
 - **1168-A:** Increasing by Modulo
 - **1168-B:** Good Triple
+- **1168-C:** And Reachability
 - **1172-B:** Nauuo and Circle
 - **1174-D:** Ehab and the Expected XOR Problem
 - **1175-D:** Array Splitting
@@ -507,3 +516,9 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1380-C:** Create The Teams
 - **1380-D:** Berserk And Fireball
 - **1380-E:** Merging Towers
+- **1385-A:** Three Pairwise Maximums
+- **1385-B:** Restore the Permutation by Merger
+- **1385-C:** Make It Good
+- **1385-D:** a-Good String
+- **1385-E:** Directing Edges
+- **1385-G:** Columns Swaps
