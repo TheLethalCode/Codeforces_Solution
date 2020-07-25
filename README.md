@@ -37,16 +37,23 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1010-B:** Rocket
 - **1016-C:** Vasya And The Mushrooms
 - **1036-C:** Classy Numbers
+- **1059-D:** Nature Reserve
 - **1061-C:** Multiplicity
+- **1070-A:** Find a Number
 - **1073-C:** Vasya and Robot
 - **1083-A:** The Fair Nut and the Best Path
+- **1089-A:** Alice the Fan
 - **1091-C:** New Year and the Sphere Transmission
+- **1092-D1:** Great Vova Wall (Version 1)
+- **1092-D2:** Great Vova Wall (Version 2)
 - **1097-A:** Gennady and a Card Game
 - **1097-B:** Petr and a Combination Lock
 - **1097-C:** Yuhao and a Parenthesis
+- **1097-D:** Makoto and a Blackboard
 - **1100-A:** Roman and Browser
 - **1100-B:** Build a Contest
 - **1100-C:** NN and the Optical Illusion
+- **1100-E:** Andrew and Taxi
 - **1101-A:** Minimum Integer
 - **1101-B:** Accordion
 - **1101-C:** Division and Union
@@ -60,6 +67,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1102-F:** Elongated Matrix
 - **1103-B:** Game with modulo
 - **1105-D:** Kilani and the Game
+- **1105-E:** Helping Hiasat
 - **1106-A:** Lunar New Year and Cross Counting
 - **1106-B:** Lunar New Year and Food Ordering
 - **1106-C:** Lunar New Year and Number Division
@@ -79,6 +87,8 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1110-A:** Parity
 - **1110-B:** Tape
 - **1110-C:** Meaningless Operations
+- **1110-D:** Jongmah
+- **1110-E:** Magic Stones
 - **1111-A:** Superhero Transformation
 - **1111-B:** Average Superhero Gang Power
 - **1111-C:** Creative Snap
@@ -90,10 +100,12 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1114-B:** Yet Another Array Partitioning Task
 - **1114-C:** Trailing Loves (or L'oeufs?)
 - **1114-D:** Flood Fill
+- **1114-E:** Arithmetic Progression
 - **1117-A:** Best Subsegment
 - **1117-B:** Emotes
 - **1117-C:** Magic Ship
 - **1117-D:** Magic Gems
+- **1117-E:** Decypher the String
 - **1118-A:** Water Buying
 - **1118-B:** Tanya and Candies
 - **1118-C:** Palindromic Matrix
@@ -125,6 +137,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1140-B:** Good String
 - **1140-C:** Playlist
 - **1140-D:** Minimum Triangulation
+- **1140-E:** Palindrome-less Arrays
 - **1141-A:** Game 23
 - **1141-B:** Maximal Continuous Rest
 - **1141-C:** Polycarp Restores Permutation
@@ -138,6 +151,7 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1146-D:** Frog Jumping
 - **1147-B:** Chladni Figure
 - **1147-C:** Thanos Nim
+- **1149-B:** Three Religions
 - **1151-C:** Problem for Nazar
 - **1151-E:** Number of Components
 - **1152-D:** Neko and Aki's Prank
@@ -511,11 +525,23 @@ Program codes for a wide range of Codeforces problem (constantly updating)
 - **1375-D:** Replace by MEX
 - **1375-E:** Inversion SwapSort
 - **1375-F:** Integer Game
+- **1379-A:** Acacius and String
+- **1379-B:** Dubious Cyrpto
+- **1379-C:** Choosing flowers
 - **1380-A:** Three Indices
 - **1380-B:** Universal Solution
 - **1380-C:** Create The Teams
 - **1380-D:** Berserk And Fireball
 - **1380-E:** Merging Towers
+- **1381-A1:** Prefix Flip (Easy Version)
+- **1381-A2:** Prefix Flip (Hard Version)
+- **1381-B:** Unmerge
+- **1381-C:** Mastermind
+- **1383-A:** String Transformation 1
+- **1383-B:** GameGame
+- **1384-A:** Common Prefixes
+- **1384-B1:** Koa and the Beach (Easy Version)
+- **1384-B2:** Koa and the Beach (Hard Version)
 - **1385-A:** Three Pairwise Maximums
 - **1385-B:** Restore the Permutation by Merger
 - **1385-C:** Make It Good
